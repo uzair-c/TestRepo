@@ -41,7 +41,7 @@ public class FizzBuzzTests
     [Theory]
     [InlineData(15)]
     [InlineData(30)]
-    [InlineData(61)]
+    [InlineData(60)]
     public void GivenANumberDivisibleBy3And5_ThenReturnsFizzBuzz(int number)
     {
         var result = FizzBuzzGame.Play(number);
